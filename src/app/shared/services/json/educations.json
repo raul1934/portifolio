@@ -1,0 +1,28 @@
+[
+    {
+        "course": "Analise e Desenvolvimento de Sistemas",
+        "instituition": "Fatec - Taquaritinga",
+        "description": "Um desenvolvedor front-end é responsável por criar e implementar a parte visual e interativa de um website ou aplicação.",
+        "initialDate": "2014-07-01T03:00:00.000Z",
+        "finalDate": "2018-06-30T03:00:00.000Z",
+        "list": [
+            "Análise e desenvolvimento de novas funcionalidades.",
+            "Documentação de novas funcionalidades.",
+            "Integração com B2W, Mercado Livre.",
+            "Conhecimento nos marketplaces Mercado Livre, B2W, Magalu, Via Varejo e Carrefour."
+        ]
+    },
+    {
+        "course": "Engenharia de Software - Pós Graduação",
+        "instituition": "PUC - Minas Gerais",
+        "description": "Um desenvolvedor front-end é responsável por criar e implementar a parte visual e interativa de um website ou aplicação.",
+        "initialDate": "2023-02-23T03:00:00.000Z",
+        "finalDate": "2024-02-23T03:00:00.000Z",
+        "list": [
+            "Análise e desenvolvimento de novas funcionalidades.",
+            "Documentação de novas funcionalidades.",
+            "Integração com B2W, Mercado Livre.",
+            "Conhecimento nos marketplaces Mercado Livre, B2W, Magalu, Via Varejo e Carrefour."
+        ]
+    }
+]

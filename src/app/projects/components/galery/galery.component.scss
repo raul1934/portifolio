@@ -1,0 +1,43 @@
+.galery {
+    max-width: 1100px;
+    margin: 0 auto;
+
+    h2 {
+        text-decoration: underline;
+        color: var(--primary-color);
+    }
+
+    &__container {
+        max-width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        transition: all 200ms ease;
+        justify-content: stretch;
+       
+    }
+}
+
+@media screen and (max-width:1240px) {
+
+    .galery {
+        &__container {
+            app-project {
+                flex: calc(50% - 0.5rem);
+                max-width: calc(50% - 0.5rem);
+            }
+        }
+    }
+}
+
+@media screen and (max-width:1100px) {
+
+    .galery {
+        &__container {
+            app-project {
+                flex: 100%;
+                max-width: 100%;
+            }
+        }
+    }
+}

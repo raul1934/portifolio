@@ -1,0 +1,101 @@
+<content class="wrapper">
+    <div class="cv">
+        <div class="cv__header">
+            <img class="img" src="../assets/img/perfil.jpg" />
+            <div class="info">
+                <h1>Raul Ferreira de Oliveira Neto</h1>
+                <h2>Desenvolvedor Full Stack</h2>
+                <p>4 anos de experiência em desenvolvimento Fullstack e Mobile.</p>
+
+                <ul class="contacts">
+                    <li></li>
+                    <li> <a href="mailto:raul19345@gmail.com" target="_blank">raul19345@gmail.com</a></li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/raul-ferreira-de-oliveira-neto-a58442ba/">
+                            linkedin.com/in/raul-ferreira-de-oliveira-neto-a58442ba
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="cv__section">
+            <h2>Habilitades</h2>
+            <div class="item">
+                <ul>
+
+                    <li><strong>Frontend:</strong> JavaScript, TypeScript, Angular, VueJs, NGRX, PWAs. Trabalhei com
+                        diversas bibliotecas de componentes, como NGZorro(Ant Design), Material Design, e
+                        Quasar Framework. Estruturei e desenvolvi uma biblioteca de componentes para o angular, de
+                        acordo com os detalhes de UI/UX, utilizando Azure Artefacts e NPM. </li>
+                    <li><strong>Backend</strong>: PHP, Laravel, SQL e NoSQL databases. Atuei na análise, manutenção e
+                        estruturação de novas aplicações nas mais diversas áreas como: Comércio Eletronico, Sistemas
+                        Médicos e Sistemas de CRM.</li>
+                    <li><strong>Mobile:</strong> Trabalhei com aplicativos desenvolvidos utilizando Flutter,
+                        desenvolvendo novas funcionalidades, fazendo refatoração de código e publicando na Play Store.
+                        Sei utilizar as bibliotecas de gerenciamento de estado BLOc e GetX.</li>
+                    <li>
+                        Aberto a evoluir e me involver com: NestJs,.NET Framework.
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="cv__section">
+            <h2>Experience</h2>
+            <ng-container *ngFor="let experience of experiencies">
+                <div class="item">
+                    <div class="header">
+                        <h3>{{experience?.name}}</h3>
+                        <span>{{experience?.initialDate | date:'MM/YYYY'}}
+                            <ng-container *ngIf="experience?.finalDate !== undefined">
+                                - {{experience?.finalDate | date:'MM/YYYY'}}
+                            </ng-container>
+                            <ng-container *ngIf="experience?.finalDate === undefined">
+                                - Atualmente
+                            </ng-container>
+                        </span>
+                    </div>
+
+                    <h4>{{experience?.company}}</h4>
+                    <p>{{experience?.description}}</p>
+
+                    <ul>
+                        <li *ngFor="let att of experience?.list">
+                            {{att}}
+                        </li>
+                    </ul>
+                </div>
+            </ng-container>
+
+        </div>
+
+        <div class="cv__section">
+            <h2>Educação</h2>
+            <ng-container *ngFor="let education of educations">
+                <div class="item">
+                    <div class="header">
+                        <h3>{{education?.course}}</h3>
+                        <span>{{education?.initialDate | date:'MM/YYYY'}}
+                            <ng-container *ngIf="education?.finalDate !== undefined">
+                                - {{education?.finalDate | date:'MM/YYYY'}}
+                            </ng-container>
+                            <ng-container *ngIf="education?.initialDate === undefined">
+                                - Atualmente
+                            </ng-container>
+                        </span>
+                    </div>
+
+                    <h4>{{education?.instituition}}</h4>
+                    <p>{{education?.description}}</p>
+
+                    <ul>
+                        <li *ngFor="let att of education?.list">
+                            {{att}}
+                        </li>
+                    </ul>
+                </div>
+            </ng-container>
+        </div>
+    </div>
+</content>

@@ -1,0 +1,16 @@
+.projects {
+    position: relative;
+    max-width: 992px;
+    margin: 0 auto;
+    padding: 20px;
+
+    h1{
+        color: var(--primary-color);
+    }
+
+    &__container {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+}

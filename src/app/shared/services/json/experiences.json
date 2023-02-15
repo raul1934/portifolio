@@ -1,0 +1,88 @@
+[
+    {
+        "name": "Desenvolvedor Front End",
+        "company": "Rodobens S.A.",
+        "active": true,
+        "initialDate": "2021-08-03T03:00:00.000Z",
+        "description": "Desenvolvimento e atualização de novas funcionalidades do sistema que apoio a venda de consórcios da empresa.",
+        "techs": [
+            "Angular",
+            "Typescript",
+            "HTML5",
+            "CSS3",
+            "SASS"
+        ],
+        "list": [
+            "Estruturação e desenvolvimento da nova plataforma de materiais de treinamento da empresa.",
+            "Estruturação e desenvolvimento da uma biblioteca de componentes para o Angular.",
+            "Realização de testes unitários em todo o código desenvolvido, utilizando o Karma e Jasmine.",
+            "Utilizando o Gooogle Tag Manager em toda a aplicação Angular de acordo com as expecificidasdes e cada módulo do sistema.",
+            "Manipulação de diversos tipos de arquvios de midia, como videos, fotos, PDFs.",
+            "Utilização do Azure SSO."
+        ]
+    },
+    {
+        "name": "Desenvolvedor Fullstack (Freelancer)",
+        "company": "Fistem Soluções Digitais",
+        "active": true,
+        "initialDate": "2022-02-26T03:00:00.000Z",
+        "finalDate": "2023-02-11T03:00:00.000Z",
+        "description": "Desenvolvimento de aplicações focadas no atendimento ao cliente da área de laborátórios médicos.",
+        "techs": [
+            "Angular",
+            "Vue",
+            "Flutter",
+            "Laravel",
+            "Typescript",
+            "HTML5",
+            "CSS3"
+        ],
+        "list": [
+            "Desenvolvimento de novas funcionalidades para os sistemas de CRM",
+            "Analise e levantamentos de requisitos junto ao cliente",
+            "Realização de Code Review",
+            "Escrita e realização de GMUD"
+        ]
+    },
+    {
+        "name": "Desenvolvedor FullStack",
+        "company": "Girafa Comércio Eletrônico",
+        "active": false,
+        "initialDate": "2020-12-07T03:00:00.000Z",
+        "finalDate": "2021-07-31T03:00:00.000Z",
+        "description": "Desenvolvimento de novas funcionalidades relacionadas ao controle de estoque e cadastro de produtos do e-commerce.",
+        "techs": [
+            "Laravel",
+            "PHP",
+            "HTML5",
+            "CSS3",
+            "SASS"
+        ],
+        "list": [
+            "Análise e desenvolvimento de novas funcionalidades.",
+            "Documentação de novas funcionalidades.",
+            "Integração com B2W, Mercado Livre.",
+            "Conhecimento nos marketplaces Mercado Livre, B2W, Magalu, Via Varejo e Carrefour."
+        ]
+    },
+    {
+        "name": "Desenvolvedor FullStack",
+        "company": "Agência AO4 - São José do Rio Preto",
+        "active": false,
+        "initialDate": "2018-07-01T03:00:00.000Z",
+        "finalDate": "2021-05-01T03:00:00.000Z",
+        "description": "Atuei no desenvolvimentos de algums projetos junto a agência",
+        "techs": [
+            "Angular",
+            "Reactjs",
+            "Typescript",
+            "HTML5",
+            "CSS3",
+            "SASS"
+        ],
+        "list": [
+            "Desenvolvimento e manutenção de projetos variados, em reactjs e angular.",
+            "Levantamento junto ao cliente de requisitos funcionais e não funcionais."
+        ]
+    }
+]

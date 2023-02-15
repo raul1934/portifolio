@@ -1,1 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
+
+:root {
+    --primary-color: #6970a1;
+    --primary-color-accent: #FFF;
+    --text-color: #333;
+    --text-color-light: #707070;
+}
+
+
+@import url("./assets/scss/_reset.scss");
+@import url("./assets/scss/_main.scss");

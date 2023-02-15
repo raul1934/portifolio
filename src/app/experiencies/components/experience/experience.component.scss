@@ -1,0 +1,112 @@
+.experiency {
+    position: relative;
+    padding-bottom: 20px;
+    border-left: 3px solid #F4F4F4;
+    padding-inline: 32px;
+    margin-left: 32px;
+
+    &__tracking {
+        width: 48px;
+        height: 48px;
+        background-color: #ee5353;
+        border-radius: 50%;
+        position: absolute;
+        top: 0px;
+        left: -26px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        svg {
+            width: 16px;
+            height: 16px;
+            fill: #ffffff;
+        }
+
+        &--active {
+            background-color: #3997e3;
+        }
+    }
+
+    &__content {
+        position: relative;
+        background-color: #F4F4F4;
+        padding: 1rem;
+        border-radius: 4px;
+        transition: all 300ms ease-in-out;
+
+        &__header {
+            display: flex;
+            align-items: baseline;
+            gap: 10px;
+
+            h1 {
+                font-size: 1.5rem;
+                font-weight: 500;
+                color: var(--primary-color);
+            }
+
+            h2 {
+                color: #333;
+                font-size: 1rem;
+                font-weight: 400;
+            }
+
+            @media screen and (max-width:992px) {
+                flex-direction: column;
+            }
+        }
+
+        &__company {
+
+            h2 {
+                color: #333;
+                font-size: 1rem;
+                font-weight: 500;
+            }
+        }
+
+        &__description {
+            color: #333;
+            font-weight: 400;
+        }
+
+        &__attributes {
+            list-style: circle;
+            padding-block: 1rem;
+
+            li {
+                margin-left: 25px;
+                margin-block: 0;
+            }
+        }
+
+        &__tecnologies {
+            padding-block: 1rem;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            gap: 10px;
+
+            li {
+                border-radius: 4px;
+                padding: 8px;
+                background-color: var(--primary-color);
+                color: var(--primary-color-accent);
+                font-weight: 500;
+            }
+        }
+
+        &::before {
+            content: ' ';
+            width: 10px;
+            height: 10px;
+            background-color: #F4F4F4;
+            position: absolute;
+            left: -5px;
+            top: 18px;
+            transform: rotateZ(45deg);
+        }
+    }
+}

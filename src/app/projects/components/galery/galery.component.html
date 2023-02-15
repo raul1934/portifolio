@@ -1,0 +1,8 @@
+<section class="galery">
+    <h2>{{header}}</h2>
+    <div class="galery__container">
+        <ng-container *ngFor="let project of projects">
+            <app-project [project]="project"></app-project>
+        </ng-container>
+    </div>
+</section>
