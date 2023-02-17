@@ -50,8 +50,6 @@
 
         }
 
-
-
         &__section {
             margin-top: 3rem;
 
@@ -153,5 +151,9 @@
                 }
             }
         }
+    }
+
+    a {
+        pointer-events: none
     }
 }

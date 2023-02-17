@@ -4,7 +4,7 @@ export default interface Project {
     paragraphs: Array<string>,
     list: Array<string>,
     techs: Array<string>,
-    github: string,
+    github?: string,
     images: Array<string>,
-    twoColsImages?: boolean
+    twoCols?: boolean
 }

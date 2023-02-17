@@ -25,7 +25,7 @@
                         <app-techs [techs]="project.techs"></app-techs>
                     </div>
                 </div>
-                <div class="images" [ngClass]="{'two-columns':project.twoColsImages}">
+                <div class="images" [ngClass]="{'two-columns':project.twoCols}">
                     <img appLazyLoad loading="lazy" class="img default-box-shadow" *ngFor="let img of project.images" [src]="img" />
                 </div>
             </div>

@@ -6,7 +6,7 @@
             "Portifólio pessoal desenvolvido em Angular v15",
             "Desenvolvi esse projeto tendo em vista"
         ],
-        "github": "https://github.com/raul1934/maisup",
+        "github": "https://github.com/raul1934/portifolio",
         "images": [
             "/assets/img/sistemas/portifolio/portifolio_01.png"
         ],
@@ -75,10 +75,11 @@
         "name": "VENTORY",
         "cover": "/assets/img/sistemas/ventory/ventory_logo.png",
         "paragraphs": [
-            "Aplicativo baseado em web com o objetivo de auxiliar a empresa Royal Açaí na venda de produtos alimentícios por delivery. Conta com toda a estrutura cadastro de produtos, cardápio, customização de acompanhamentos, carrinho de compras e cálculo de valor de frete relativo a distância do cliente.",
-            "Atuei exclusivamente no desenvolvimento front end. Não foi utilizado nenhuma biblioteca de componentes."
+            "Aplicativo baseado em web com o objetivo de auxiliar prover um meio para que os insumos de estudos clinicos sejam gerenciados.",
+            "Todos os insumos são adicionados através da leitura de uma nota fiscal, podendo ser repartidos quantidades especificas para cada estudo.",
+            "Foram disponibilizados alguns relatórios dentro do aplicativo, como o de estoque atual e o de movimentação de estoque.",
+            "Foi adicionado também uma funcionalidade que permite ao usuário cadastrado utilizar o insumo, na qual o usuário precisa informar em qual estudo clinico será utilizado."
         ],
-        "github": "https://github.com/agencia-ao4/tribodasorte-front",
         "images": [
             "/assets/img/sistemas/ventory/ventory_01.png",
             "/assets/img/sistemas/ventory/ventory_02.png",
@@ -103,7 +104,6 @@
             "Aplicativo baseado em web com o objetivo de oferecer aos clientes da empresa Velani Digital uma alternativa no gerenciamento de contas. Possui as funcionalidades de cadastro de clientes, cadastro de contas bancárias, lançamento de receitas e despesas.",
             "Atuei no desenvolvimento de novas funcionalidades, entre elas a unificação das telas de lançamentos de receitas e despesas, implantação do open bank."
         ],
-        "github": "https://github.com/agencia-ao4/tribodasorte-front",
         "images": [
             "/assets/img/sistemas/app-recebimentos/01.png",
             "/assets/img/sistemas/app-recebimentos/02.png",

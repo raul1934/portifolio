@@ -50,6 +50,12 @@
             &:hover {
                 filter: brightness(1.2);
             }
+
+            &.disabled{
+                pointer-events: visible;
+                filter: brightness(0.7);
+                cursor: not-allowed;
+            }
         }
     }
 }
