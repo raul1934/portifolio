@@ -101,8 +101,10 @@
         "name": "APP Recebimentos",
         "cover": "/assets/img/sistemas/app-recebimentos/logo.png",
         "paragraphs": [
-            "Aplicativo baseado em web com o objetivo de oferecer aos clientes da empresa Velani Digital uma alternativa no gerenciamento de contas. Possui as funcionalidades de cadastro de clientes, cadastro de contas bancárias, lançamento de receitas e despesas.",
-            "Atuei no desenvolvimento de novas funcionalidades, entre elas a unificação das telas de lançamentos de receitas e despesas, implantação do open bank."
+            "Aplicativo desenvolvido em Flutter, com o objetivo de ajudar no recebimento de mercadorias da area medica.",
+            "Atuei em todas as etapas do aplicativo: Levantamento de requisitos junto ao cliente, Desenvolvimento do aplicativo e de algumas APIs que fazem integração com o Logix.",
+            "O aplicativo é composto por: Um modulo de recebimentos de mercadorias com todas as regras de negócio",
+            "Foi adicionado a opção do usuário anexar uma imagem da câmera ou da galeria."
         ],
         "images": [
             "/assets/img/sistemas/app-recebimentos/01.png",
